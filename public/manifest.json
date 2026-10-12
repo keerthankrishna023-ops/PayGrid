@@ -1,0 +1,49 @@
+{
+  "id": "/",
+  "name": "PayGrid - Utility Bill & UPI Expense Manager",
+  "short_name": "PayGrid",
+  "description": "Track and pay all utility bills with any UPI app, automate recurring reminders, calculate late fees, and export personal budgeting expense reports.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
+  "theme_color": "#4f46e5",
+  "categories": ["finance", "utilities", "productivity"],
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Pay Bills",
+      "short_name": "Pay",
+      "description": "Quickly pay due bills via UPI",
+      "url": "/?tab=bills",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Add Utility Bill",
+      "short_name": "Add Bill",
+      "description": "Add a new utility bill to track",
+      "url": "/?action=add",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    }
+  ]
+}

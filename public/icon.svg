@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="pgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="50%" stop-color="#4338ca" />
+      <stop offset="100%" stop-color="#3730a3" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#1e1b4b" flood-opacity="0.35" />
+    </filter>
+  </defs>
+  
+  <!-- Outer Rounded Squircle -->
+  <rect width="512" height="512" rx="128" fill="url(#pgGradient)" />
+  
+  <!-- Subtle Grid Lines representing PayGrid bills -->
+  <g stroke="white" stroke-opacity="0.12" stroke-width="4">
+    <line x1="96" y1="160" x2="416" y2="160" />
+    <line x1="96" y1="256" x2="416" y2="256" />
+    <line x1="96" y1="352" x2="416" y2="352" />
+    <line x1="160" y1="96" x2="160" y2="416" />
+    <line x1="256" y1="96" x2="256" y2="416" />
+    <line x1="352" y1="96" x2="352" y2="416" />
+  </g>
+  
+  <!-- Central Badge with Rupee Symbol -->
+  <g filter="url(#shadow)">
+    <rect x="136" y="136" width="240" height="240" rx="48" fill="#ffffff" fill-opacity="0.16" stroke="white" stroke-width="6" />
+    <!-- ₹ Rupee Symbol -->
+    <path d="M200 190 H312 M200 226 H280 M200 190 V250 H240 C272 250 286 238 286 216 M236 250 L296 322" stroke="white" stroke-width="26" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  </g>
+  
+  <!-- Sparkle Accent in Top Right -->
+  <circle cx="360" cy="150" r="14" fill="#a5b4fc" />
+  <circle cx="150" cy="360" r="10" fill="#a5b4fc" />
+</svg>

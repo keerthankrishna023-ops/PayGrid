@@ -1,0 +1,6 @@
+{
+  "name": "PayGrid - Utility Bill & UPI Expense Manager",
+  "description": "Track and pay all utility bills with any UPI app, automate recurring reminders, calculate late fees, and export personal budgeting expense reports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

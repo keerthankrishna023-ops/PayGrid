@@ -1,0 +1,38 @@
+{
+  "packageId": "com.paygrid.utilitymanager",
+  "host": "ais-dev-v6hf5p7cqmpso5ckypxgx4-910103603769.asia-southeast1.run.app",
+  "name": "PayGrid - Utility Bill & UPI Expense Manager",
+  "launcherName": "PayGrid",
+  "display": "standalone",
+  "themeColor": "#4F46E5",
+  "navigationColor": "#4F46E5",
+  "backgroundColor": "#FFFFFF",
+  "enableNotifications": true,
+  "startUrl": "/",
+  "iconUrl": "/pwa-512x512.png",
+  "maskableIconUrl": "/pwa-maskable-512x512.png",
+  "appVersionName": "1.0.0",
+  "appVersionCode": 1,
+  "shortcuts": [
+    {
+      "name": "Pay Bills",
+      "shortName": "Pay",
+      "url": "/?tab=bills",
+      "icon": "/pwa-192x192.png"
+    }
+  ],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "/manifest.json",
+  "fallbackType": "customtabs",
+  "features": {
+    "locationDelegation": {
+      "enabled": false
+    },
+    "playBilling": {
+      "enabled": false
+    }
+  },
+  "alphaDependencies": {
+    "enabled": false
+  }
+}
